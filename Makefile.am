@@ -1,4 +1,5 @@
 AM_CPPFLAGS = -Wall -Wextra -Wshadow -Werror -g
+ACLOCAL_AMFLAGS = -I m4
 
 lib_LTLIBRARIES = libxoauth2.la
 libxoauth2_la_LDFLAGS = -version-info 0:0:0
