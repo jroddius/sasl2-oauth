@@ -26,7 +26,6 @@ dnl PKG_CHECK_MODULES([SASL2],[libsasl2])
 
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_FILES([Makefile])
-AC_CONFIG_MACRO_DIRS([m4])
 
 dnl XXX pretty horrid
 libdir='${exec_prefix}'/lib/sasl2
